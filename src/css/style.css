@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tab-buttons {
+    margin-bottom: 1rem;
+}
+
+.tab-buttons .btn {
+    flex: 1;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.tab-buttons .btn.active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.tab-buttons .btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.tab-content {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+}
+
+textarea {
+    resize: none; /* Evita que el textarea se redimensione */
+}
+
+.btn {
+    width: 100%; /* Botones ocupan todo el ancho */
+    margin-top: 1rem; /* Espacio superior para botones */
+}
+
+pre {
+    white-space: pre-wrap; /* Mantiene el formato de espacios */
+    word-wrap: break-word; /* Permite que el texto largo se ajuste */
+    background-color: #f1f1f1; /* Color de fondo para el área de salida */
+    border: 1px solid #dee2e6; /* Borde del área de salida */
+    padding: 10px; /* Padding dentro del área de salida */
+}
